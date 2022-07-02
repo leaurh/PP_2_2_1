@@ -29,7 +29,7 @@ public class MainApp {
          System.out.println("Email = "+user.getEmail());
          System.out.println();
       }
-      List<User> getUser = userService.getByModelSeries("Renault", 1);
+      User getUser = userService.getByModelSeries("Renault", 1);
       System.out.println(getUser);
 
 
